@@ -35,5 +35,4 @@ public class PessoaFisica extends Contribuinte {
 		}
 		return finalTaxa;
 	}
-
 }

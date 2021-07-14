@@ -18,7 +18,8 @@ public class Program {
 		List<Contribuinte> list = new ArrayList<>();
 		
 		System.out.print("Enter the number of tax payers: ");
-		int n = sc.nextInt();		
+		int n = sc.nextInt();
+		
 		for (int i=1; i<=n; i++) {
 			System.out.println("Tax payer #" + i + " data: ");
 			System.out.print("Individual or company (i/c)? ");
